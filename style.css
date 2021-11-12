@@ -57,22 +57,22 @@ div{
     width: calc(25% - 20px);
     height: 400px;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 20px;
     background-color: cyan;
 }
 
 .middle-box{
     float: left;
-    width: 50%;
+    width: calc(50% - 20px);
     height: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: cyan;
 }
 
-.righ-box{
-    float: right;
+.right-box{
+    float: left;
     width: calc(25% - 20px);
     height: 400px;
     margin-top: 20px;
@@ -80,7 +80,6 @@ div{
     margin-bottom: 20px;
     background-color: cyan;
 }
-
 /* Footer */
 
 .box-violet{
